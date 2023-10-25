@@ -306,8 +306,12 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.wrap {
+      margin-bottom: 72px;
+   }
 .footer-one {
     margin: 0;
+    margin-bottom: 72px;
 }
 .footer-logo {
     display: flex;
@@ -328,7 +332,6 @@ footer {
 .footer-text {
     color: #F4F4FD;
     max-width: 288px;
-    margin-bottom: 72px;
 }
 .footer-social-text {
      font-weight: 500;
@@ -342,7 +345,6 @@ footer {
 .footer-social-list {
     display: flex;
     gap: 16px;
-    margin-bottom: 72px;
     justify-content: center;
 }
 .footer-social-item {
@@ -834,8 +836,10 @@ footer {
    .wrap {
       display: flex;
       gap: 24px;
-      margin-bottom: 72px;
    }
+   .footer-one {
+    margin-bottom: 0;
+  }
    .footer-logo {
     justify-content: flex-start;
    }
